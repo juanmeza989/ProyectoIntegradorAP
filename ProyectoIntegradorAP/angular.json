@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
+              "ProyectoIntegradorAP/node_modules/bootstrap/dist/css/bootstrap.css"
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectoIntegradorAP/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
