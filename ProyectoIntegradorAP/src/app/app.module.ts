@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ArgPlogoComponent } from './components/arg-plogo/arg-plogo.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { BannerComponent } from './components/banner/banner.component';
     ArgPlogoComponent,
     SocialComponent,
     BannerComponent,
+    AcercadeComponent,
    
   ],
   imports: [
