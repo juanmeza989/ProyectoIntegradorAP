@@ -1,0 +1,10 @@
+.row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-color: black;
+}
