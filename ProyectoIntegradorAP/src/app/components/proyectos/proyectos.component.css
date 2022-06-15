@@ -2,14 +2,21 @@
     margin: 0;
     padding: 20px;
     background-color: rgb(139, 105, 60);
+    color: white;
+}
+
+.container-fluid{
+    width: auto;
+    padding: 20px;
 }
 
 .container{
-    width: auto;
+    padding: 0;
+    margin: 0;
 }
-
 .parte1, .parte2{
     display: inline-block;
+    
     text-align: justify;
     height: fit-content;
 }
