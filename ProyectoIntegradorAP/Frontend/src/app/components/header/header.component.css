@@ -19,13 +19,16 @@ img{
     
 }
 
-.navbar-nav { 
+#boton{
+    align-self: center;
+}
+/*.navbar-nav { 
     display: flex;
     flex-flow: row nowrap;
     
     
 
-}
+}*/
 
 .navbar-nav img{
     margin-top: 2%;
