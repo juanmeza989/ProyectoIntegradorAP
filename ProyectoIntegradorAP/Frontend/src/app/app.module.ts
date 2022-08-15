@@ -16,6 +16,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
+import { FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,8 +39,10 @@ import { HomeComponent } from './components/home/home.component';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class NgForm { }
