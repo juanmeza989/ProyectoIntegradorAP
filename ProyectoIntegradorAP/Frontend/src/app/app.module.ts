@@ -16,7 +16,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
-import { FormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FormsModule} from '@angular/forms';
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
+    LoginComponent,
    
   ],
   imports: [
@@ -40,9 +42,9 @@ import { FormsModule} from '@angular/forms';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-export class NgForm { }
