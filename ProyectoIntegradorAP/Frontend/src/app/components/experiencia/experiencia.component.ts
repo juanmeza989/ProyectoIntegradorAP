@@ -12,13 +12,13 @@ export class ExperienciaComponent implements OnInit {
   expe:Experiencia[]=[];
   constructor(private sExperiencia: SExperienciaService, private tokenService:TokenService) { }
 
-  isLoged=false;
+  isLogged=false;
   ngOnInit(): void {
     this.cargarExperiencia();
     if(this.tokenService.getToken()){
-      this.isLoged=true;
+      this.isLogged=true;
     }else{
-      this.isLoged=false;
+      this.isLogged=false;
     }
   }
 
