@@ -34,8 +34,8 @@ public class SEducacion {
         return rEducacion.findByNombreEdu(nombreEdu);
     }
     
-    public void save(Educacion expe){
-        rEducacion.save(expe);
+    public void save(Educacion educ){
+        rEducacion.save(educ);
     }
     
     public void delete(int id){
