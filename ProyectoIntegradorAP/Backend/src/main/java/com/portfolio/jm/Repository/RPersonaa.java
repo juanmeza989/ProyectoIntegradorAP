@@ -4,7 +4,7 @@
  */
 package com.portfolio.jm.Repository;
 
-import com.portfolio.jm.Entity.Educacion;
+import com.portfolio.jm.Entity.Personaa;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -14,8 +14,8 @@ import org.springframework.stereotype.Repository;
  * @author juanm
  */
 @Repository
-public interface REducacion extends JpaRepository<Educacion, Integer> {
-    public Optional<Educacion> findByNombreEdu(String nombreEdu);
-    public boolean existsByNombreEdu(String nombreEdu);
+public interface RPersonaa extends JpaRepository<Personaa, Integer> {
+    public Optional<Personaa> findByNombrePersonaa(String nombrePersonaa);
+    public boolean existsByNombrePersonaa(String nombrePersonaa);
     
 }
