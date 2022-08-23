@@ -22,7 +22,7 @@
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" *ngFor="let Personaa of persona">
         <p id="nombre">{{Personaa.nombrePersonaa}} {{Personaa.apellidoPersonaa}}</p>
-        <p id="titulo">Titulo</p>
+        <p id="titulo">{{Personaa.tituloPersonaa}}</p>
         <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editacercade/{{Personaa.id}}">Editar<i class="bi bi-pen"></i></button></p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">

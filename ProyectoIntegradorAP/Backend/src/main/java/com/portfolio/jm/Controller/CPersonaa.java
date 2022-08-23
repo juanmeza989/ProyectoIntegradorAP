@@ -26,6 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
+
+
 /**
  *
  * @author juanm
@@ -67,7 +69,7 @@ public class CPersonaa {
         if(sPersonaa.existsByNombrePersonaa(dtopersonaa.getNombrePersonaa()))
             return new ResponseEntity(new Mensaje("Esa personaa existe"),HttpStatus.BAD_REQUEST);
         
-        Personaa personaa = new Personaa(dtopersonaa.getNombrePersonaa(),dtopersonaa.getApellidoPersonaa());
+        Personaa personaa = new Personaa(dtopersonaa.getNombrePersonaa(),dtopersonaa.getApellidoPersonaa(),dtopersonaa.getTituloPersonaa());
         sPersonaa.save(personaa);
         
         return new ResponseEntity(new Mensaje("Personaa agregada"),HttpStatus.OK);
@@ -86,6 +88,7 @@ public class CPersonaa {
         Personaa personaa = sPersonaa.getOne(id).get();
         personaa.setNombrePersonaa(dtopersonaa.getNombrePersonaa());
         personaa.setApellidoPersonaa(dtopersonaa.getApellidoPersonaa());
+        personaa.setTituloPersonaa(dtopersonaa.getTituloPersonaa());
         
         sPersonaa.save(personaa);
         return new ResponseEntity(new Mensaje("la personaa fue actualizada"),HttpStatus.OK);

@@ -13,27 +13,27 @@ import javax.persistence.Id;
  *
  * @author juanm
  */
-
-
 @Entity
 public class Personaa {
+
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombrePersonaa;
     private String apellidoPersonaa;
-    
-    //constructor
+    private String tituloPersonaa;
 
+    //constructor
     public Personaa() {
     }
 
-    public Personaa(String nombrePersonaa, String apellidoPersonaa) {
+    public Personaa(String nombrePersonaa, String apellidoPersonaa, String tituloPersonaa) {
         this.nombrePersonaa = nombrePersonaa;
         this.apellidoPersonaa = apellidoPersonaa;
+        this.tituloPersonaa = tituloPersonaa;
     }
-    //getters & setters
 
+    //getters & setters
     public int getId() {
         return id;
     }
@@ -58,5 +58,12 @@ public class Personaa {
         this.apellidoPersonaa = apellidoPersonaa;
     }
 
-   
+    public String getTituloPersonaa() {
+        return tituloPersonaa;
+    }
+
+    public void setTituloPersonaa(String tituloPersonaa) {
+        this.tituloPersonaa = tituloPersonaa;
+    }
+
 }

@@ -16,15 +16,20 @@ public class DtoPersonaa {
     @NotBlank
     private String apellidoPersonaa;
     
+    private String tituloPersonaa;
+    
     //constructor
 
     public DtoPersonaa() {
     }
 
-    public DtoPersonaa(String nombrePersonaa, String apellidoPersonaa) {
+    public DtoPersonaa(String nombrePersonaa, String apellidoPersonaa, String tituloPersonaa) {
         this.nombrePersonaa = nombrePersonaa;
         this.apellidoPersonaa = apellidoPersonaa;
+        this.tituloPersonaa = tituloPersonaa;
     }
+
+    
     
     //gys
 
@@ -42,6 +47,14 @@ public class DtoPersonaa {
 
     public void setApellidoPersonaa(String apellidoPersonaa) {
         this.apellidoPersonaa = apellidoPersonaa;
+    }
+
+    public String getTituloPersonaa() {
+        return tituloPersonaa;
+    }
+
+    public void setTituloPersonaa(String tituloPersonaa) {
+        this.tituloPersonaa = tituloPersonaa;
     }
 
    
