@@ -1,10 +1,29 @@
-<div class="row">
+<!--<div class="row">
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <img src="../../../assets/perfil2.webp" class="img-fluid">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
         <p id="titulo">Titulo</p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+       <span> 
+           <h1>Acerca de mi</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam provident amet nesciunt? Tenetur, laboriosam reiciendis aut necessitatibus dolorem nisi. Ipsa repellendus aut porro cum sint blanditiis illum eveniet nulla?</p>
+        </span>
+    </div>
+    
+</div>
+-->
+
+<div class="row">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src="../../../assets/perfil2.webp" class="img-fluid">
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" *ngFor="let Personaa of persona">
+        <p id="nombre">{{Personaa.nombrePersonaa}} {{Personaa.apellidoPersonaa}}</p>
+        <p id="titulo">Titulo</p>
+        <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editacercade/{{Personaa.id}}">Editar<i class="bi bi-pen"></i></button></p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
        <span> 
