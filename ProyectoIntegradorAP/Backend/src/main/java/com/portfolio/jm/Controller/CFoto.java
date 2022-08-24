@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author juanm
  */
 @RestController
-@RequestMapping("foto")
+@RequestMapping("fotoperfil")
 @CrossOrigin(origins="http://localhost:4200")
 public class CFoto {
     @Autowired

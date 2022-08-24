@@ -25,6 +25,9 @@ import { NewEducacionComponent } from './components/educacion/new-educacion.comp
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { EditAcercadeComponent } from './components/acercade/edit-acercade.component';
 import { EditBannerComponent } from './components/banner/edit-banner.component';
+import { EditFotoPerfilComponent } from './components/acercade/edit-foto-perfil.component';
+import { FotoPerfilComponent } from './components/acercade/foto-perfil.component';
+import { BaseComponent } from './components/acercade/base.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +50,9 @@ import { EditBannerComponent } from './components/banner/edit-banner.component';
     EditEducacionComponent,
     EditAcercadeComponent,
     EditBannerComponent,
+    EditFotoPerfilComponent,
+    FotoPerfilComponent,
+    BaseComponent,
     
    
   ],

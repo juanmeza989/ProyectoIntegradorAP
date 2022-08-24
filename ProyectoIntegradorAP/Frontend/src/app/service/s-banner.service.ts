@@ -21,12 +21,12 @@ export class SBannerService {
     return this.httpClient.get<Banner>(this.expUrl+`detail/${id}`);
   }
 
-  public save(experiencia: Banner):Observable<any>{
-    return this.httpClient.post<any>(this.expUrl+'create',experiencia);
+  public save(banner: Banner):Observable<any>{
+    return this.httpClient.post<any>(this.expUrl+'create',banner);
   }
 
-  public update(id:number, experiencia:Banner):Observable<any>{
-    return this.httpClient.put<any>(this.expUrl+`update/${id}`,experiencia);
+  public update(id:number, banner:Banner):Observable<any>{
+    return this.httpClient.put<any>(this.expUrl+`update/${id}`,banner);
   }
 
   public delete(id:number):Observable<any>{

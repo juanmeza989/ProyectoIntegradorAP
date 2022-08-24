@@ -1,0 +1,33 @@
+.row{
+    padding: 20px;
+   
+    width: 100%;
+    margin: 0;
+    
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-color: black;
+   
+}
+
+div{
+    background-color: rgb(44, 92, 102);
+    color: antiquewhite;
+    text-align: center;
+    
+}
+
+#nombre{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+#titulo{
+    font-size: 25px;
+    font-style: italic;
+}
+
+
