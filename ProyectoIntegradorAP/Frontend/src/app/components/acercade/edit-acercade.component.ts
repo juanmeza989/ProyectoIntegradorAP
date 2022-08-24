@@ -15,11 +15,11 @@ export class EditAcercadeComponent implements OnInit {
 
   ngOnInit(): void {
     const id= this.activatedRouter.snapshot.params['id'];
-    this.sPersonaa.detail(id).subscribe(data=>{this.personaa=data},err=>{alert("Error al modificar personaa"),this.router.navigate([''])})
+    this.sPersonaa.detail(id).subscribe(data=>{this.personaa=data},err=>{alert("Error al modificar persona"),this.router.navigate([''])})
   }
 
   onUpdate():void{
     const id= this.activatedRouter.snapshot.params['id'];
-    this.sPersonaa.update(id,this.personaa).subscribe(data=>{this.router.navigate([''])},err =>{alert("Error al modificar personaa");this.router.navigate([''])})
+    this.sPersonaa.update(id,this.personaa).subscribe(data=>{this.router.navigate([''])},err =>{alert("Error al modificar persona");this.router.navigate([''])})
   }  
 }
