@@ -1,13 +1,14 @@
-<div class="row-flush">
+<div class="row-flush" *ngFor="let Banner of banner">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <div class="container-flush">
-        <img href="https://ibb.co/nB522Bp"><img src="https://i.ibb.co/dtz99tZ/banner2.jpg" class="banner" >
+    <div class="container-flush" >
         
-    
+        <img src="{{Banner.imagenB}}" class="banner">
+        <div *ngIf="isLogged"><button class="btn btn-light" routerLink="/editbanner/{{Banner.id}}">Editar<i class="bi bi-pen"></i></button>
+        </div>
     
         <div class="intro">
             <span>
-            <h1>Bienvenidos a mi Portfolio</h1>
+            <h1>{{Banner.saludoB}}</h1>
            
             </span>
             

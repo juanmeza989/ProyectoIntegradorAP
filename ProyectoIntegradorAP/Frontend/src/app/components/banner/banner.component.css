@@ -41,6 +41,19 @@
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     
 }
+
+.btn.btn-light{ 
+    
+    position:absolute;
+    
+   
+    height: auto;
+    top:10%;
+    left:90%;
+    transform: translate(-50%,-50%);
+   
+    
+}
 h1{
     font-size: 3vw;
 }
