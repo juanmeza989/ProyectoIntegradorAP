@@ -4,6 +4,6 @@
     <div *ngFor="let Personaa of persona">
         <p id="nombre">{{Personaa.nombrePersonaa}} {{Personaa.apellidoPersonaa}}</p>
         <p id="titulo">{{Personaa.tituloPersonaa}}</p>
-        <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editacercade/{{Personaa.id}}">Editar<i class="bi bi-pen"></i></button></p>
+        <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editpersonaa/{{Personaa.id}}">Editar<i class="bi bi-pen"></i></button></p>
     </div>
     

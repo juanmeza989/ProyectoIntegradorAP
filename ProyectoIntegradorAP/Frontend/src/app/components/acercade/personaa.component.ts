@@ -5,11 +5,11 @@ import { TokenService } from 'src/app/service/token.service';
 
 
 @Component({
-  selector: 'app-acercade',
-  templateUrl: './acercade.component.html',
-  styleUrls: ['./acercade.component.css']
+  selector: 'app-personaa',
+  templateUrl: './personaa.component.html',
+  styleUrls: ['./personaa.component.css']
 })
-export class AcercadeComponent implements OnInit {
+export class PersonaaComponent implements OnInit {
   persona:Personaa[]=[];
   constructor(private sPersonaa: SPersonaaService, private tokenService:TokenService) { }
 
@@ -37,11 +37,11 @@ import { TokenService } from 'src/app/service/token.service';
 
 
 @Component({
-  selector: 'app-acercade',
-  templateUrl: './acercade.component.html',
-  styleUrls: ['./acercade.component.css']
+  selector: 'app-personaa',
+  templateUrl: './personaa.component.html',
+  styleUrls: ['./personaa.component.css']
 })
-export class AcercadeComponent implements OnInit {
+export class PersonaaComponent implements OnInit {
   persona:Personaa[]=[];
   constructor(private sPersonaa: SPersonaaService, private tokenService:TokenService) { }
 

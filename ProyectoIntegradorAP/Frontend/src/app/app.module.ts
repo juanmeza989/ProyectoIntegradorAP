@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ArgPlogoComponent } from './components/arg-plogo/arg-plogo.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { AcercadeComponent } from './components/acercade/acercade.component';
+
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -23,11 +23,12 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewEducacionComponent } from './components/educacion/new-educacion.component';
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
-import { EditAcercadeComponent } from './components/acercade/edit-acercade.component';
+import { EditPersonaaComponent } from './components/acercade/edit-personaa.component';
 import { EditBannerComponent } from './components/banner/edit-banner.component';
 import { EditFotoPerfilComponent } from './components/acercade/edit-foto-perfil.component';
 import { FotoPerfilComponent } from './components/acercade/foto-perfil.component';
 import { BaseComponent } from './components/acercade/base.component';
+import { PersonaaComponent } from './components/acercade/personaa.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { BaseComponent } from './components/acercade/base.component';
     ArgPlogoComponent,
     SocialComponent,
     BannerComponent,
-    AcercadeComponent,
+    PersonaaComponent,
     ExperienciaComponent,
     EducacionComponent,
     HysComponent,
@@ -48,7 +49,7 @@ import { BaseComponent } from './components/acercade/base.component';
     EditExperienciaComponent,
     NewEducacionComponent,
     EditEducacionComponent,
-    EditAcercadeComponent,
+    EditPersonaaComponent,
     EditBannerComponent,
     EditFotoPerfilComponent,
     FotoPerfilComponent,
