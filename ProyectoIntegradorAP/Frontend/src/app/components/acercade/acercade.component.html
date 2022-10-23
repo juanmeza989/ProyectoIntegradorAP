@@ -1,0 +1,8 @@
+<div class="acercademi"> 
+    <div *ngFor="let Acercade of acercadeM">
+    
+        <h1>Acerca de mi</h1>
+        <p id="descripcion">{{Acercade.acercadeM}}</p>
+        <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editacercade/{{Acercade.id}}">Editar<i class="bi bi-pen"></i></button></p>
+    </div>
+</div>

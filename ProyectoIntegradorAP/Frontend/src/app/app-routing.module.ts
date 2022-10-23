@@ -9,6 +9,7 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { EditAcercadeComponent } from './components/acercade/edit-acercade.component';
 
 const routes: Routes = [
   {path:'',component: HomeComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'editedu/:id',component:EditEducacionComponent},
   {path:'editpersonaa/:id',component:EditPersonaaComponent},
   {path:'editbanner/:id',component:EditBannerComponent},
-  {path:'editfotoperfil/:id',component:EditFotoPerfilComponent}
+  {path:'editfotoperfil/:id',component:EditFotoPerfilComponent},
+  {path:'editacercade/:id',component:EditAcercadeComponent}
   
 ];
 

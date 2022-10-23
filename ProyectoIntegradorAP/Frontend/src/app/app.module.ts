@@ -30,6 +30,9 @@ import { FotoPerfilComponent } from './components/acercade/foto-perfil.component
 import { BaseComponent } from './components/acercade/base.component';
 import { PersonaaComponent } from './components/acercade/personaa.component';
 import { EditPersonaaComponent } from './components/acercade/edit-personaa.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
+import { EditAcercadeComponent } from './components/acercade/edit-acercade.component';
+
 
 @NgModule({
   declarations: [
@@ -55,6 +58,9 @@ import { EditPersonaaComponent } from './components/acercade/edit-personaa.compo
     EditFotoPerfilComponent,
     FotoPerfilComponent,
     BaseComponent,
+    AcercadeComponent,
+    EditAcercadeComponent,
+    
     
    
   ],
