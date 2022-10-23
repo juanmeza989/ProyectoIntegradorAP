@@ -23,12 +23,13 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewEducacionComponent } from './components/educacion/new-educacion.component';
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
-import { EditPersonaaComponent } from './components/acercade/edit-personaa.component';
+
 import { EditBannerComponent } from './components/banner/edit-banner.component';
 import { EditFotoPerfilComponent } from './components/acercade/edit-foto-perfil.component';
 import { FotoPerfilComponent } from './components/acercade/foto-perfil.component';
 import { BaseComponent } from './components/acercade/base.component';
 import { PersonaaComponent } from './components/acercade/personaa.component';
+import { EditPersonaaComponent } from './components/acercade/edit-personaa.component';
 
 @NgModule({
   declarations: [
