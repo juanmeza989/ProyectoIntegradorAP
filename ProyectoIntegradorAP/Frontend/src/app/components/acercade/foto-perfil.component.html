@@ -1,6 +1,7 @@
-
+<div class="container">
 <div *ngFor="let FotoPerfil of fotoP">
     <img src="{{FotoPerfil.fotoP}}" alt="Image not found" onerror="this.src='../../../assets/perfil2.webp';" />
    
     <p *ngIf="isLogged"><button class="btn btn-light" routerLink="/editfotoperfil/{{FotoPerfil.id}}">Editar<i class="bi bi-pen"></i></button></p>
+</div>
 </div>
