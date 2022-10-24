@@ -22,15 +22,17 @@ public class Educacion {
     private int id;
     private String nombreEdu;
     private String descripcionEdu;
+    private String logoEdu;
     
     //constructor
 
     public Educacion() {
     }
 
-    public Educacion(String nombreEdu, String descripcionEdu) {
+    public Educacion(String nombreEdu, String descripcionEdu, String logoEdu) {
         this.nombreEdu = nombreEdu;
         this.descripcionEdu = descripcionEdu;
+        this.logoEdu = logoEdu;
     }
     //getters & setters
 
@@ -57,5 +59,14 @@ public class Educacion {
     public void setDescripcionEdu(String descripcionEdu) {
         this.descripcionEdu = descripcionEdu;
     }
-    
+
+    public String getLogoEdu() {
+        return logoEdu;
+    }
+
+    public void setLogoEdu(String logoEdu) {
+        this.logoEdu = logoEdu;
+    }
+
+   
 }
