@@ -1,0 +1,21 @@
+.form-group{
+    width: 80vw;
+}
+
+.container{
+    box-shadow: 15px 20px 60px black;
+    padding: 20px;
+    padding-top: 10px   ;
+    border-radius: 5px;
+    width: max-content;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.header{
+    height: 50px;
+    padding-left: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
