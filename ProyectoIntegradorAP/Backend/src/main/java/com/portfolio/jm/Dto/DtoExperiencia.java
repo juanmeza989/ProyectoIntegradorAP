@@ -16,14 +16,17 @@ public class DtoExperiencia {
     @NotBlank
     private String descripcionE;
     
+    private String logoE;
+    
     //constructor
 
     public DtoExperiencia() {
     }
 
-    public DtoExperiencia(String nombreE, String descripcionE) {
+    public DtoExperiencia(String nombreE, String descripcionE, String logoE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
+        this.logoE = logoE;
     }
     
     //gys
@@ -43,6 +46,16 @@ public class DtoExperiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
+    public String getLogoE() {
+        return logoE;
+    }
+
+    public void setLogoE(String logoE) {
+        this.logoE = logoE;
+    }
+
+    
     
     
 }

@@ -15,7 +15,7 @@ public class DtoEducacion {
     private String nombreEdu;
     @NotBlank
     private String descripcionEdu;
-    @NotBlank
+    
     private String logoEdu;
     
     //constructor
