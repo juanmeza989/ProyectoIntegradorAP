@@ -7,7 +7,7 @@ import { FotoPerfil } from '../model/foto-perfil';
   providedIn: 'root'
 })
 export class SFotoPerfilService {
-  expUrl='http://localhost:8080/fotoperfil/';
+  expUrl='https://backendjm.herokuapp.com/fotoperfil/';
 
 
   constructor(private httpClient:HttpClient) { }

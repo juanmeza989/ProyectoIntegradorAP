@@ -7,7 +7,7 @@ import { Banner } from '../model/banner';
   providedIn: 'root'
 })
 export class SBannerService {
-  expUrl='http://localhost:8080/banner/';
+  expUrl='https://backendjm.herokuapp.com/banner/';
 
 
   constructor(private httpClient:HttpClient) { }

@@ -7,7 +7,7 @@ import { Personaa } from '../model/personaa';
   providedIn: 'root'
 })
 export class SPersonaaService {
-  expUrl='http://localhost:8080/personaa/';
+  expUrl='https://backendjm.herokuapp.com/personaa/';
 
 
   constructor(private httpClient:HttpClient) { }
