@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("personaa")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://frontendjmap.web.app")
 public class CPersonaa {
     @Autowired
     SPersonaa sPersonaa;

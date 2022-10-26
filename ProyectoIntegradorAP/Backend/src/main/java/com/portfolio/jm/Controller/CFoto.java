@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("fotoperfil")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://frontendjmap.web.app")
 public class CFoto {
     @Autowired
     SFoto sFoto;
