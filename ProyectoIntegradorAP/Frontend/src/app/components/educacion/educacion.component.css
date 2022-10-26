@@ -9,7 +9,6 @@
     overflow: hidden;
     position: relative;
     border-color: black;
-    color: white;
 }
 
 div{
@@ -22,13 +21,8 @@ h1,h3{
 }
 
 img{
-    width: 10vw;
-}
-.descripcion{
-    box-sizing: content-box;
-    
+    width: 100px;
 }
 td{
-    width: max-content;
-    color: white;
+    color:white ;
 }
